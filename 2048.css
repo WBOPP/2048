@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+hr {
+    width: 500px;
+}
+
+#board {
+    width: 400px;
+    height: 400px;
+
+    background-color: rgb(216, 205, 205);
+    border: 6px solid #bbada0;
+
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tile {
+    width: 90px;
+    height: 90px;
+    border: 5px solid #bbada0;
+
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* colored tiles */
+
+.x2 {
+    background-image:  #fda706;
+    color: #727371;
+}
+
+.x4 {
+    background-color: #ece0ca;
+    color: #727371;
+}
+
+.x8 {
+    background-color: url("https://www.bing.com/images/search?view=detailV2&ccid=oC1e5U0C&id=D678B83FC89E569ACEED12E123F1E09D2CD2C31C&thid=OIF.pWVbUTSEB2AwVaJ82YMmZQ&mediaurl=https%3a%2f%2fmedia.nbcdfw.com%2f2024%2f04%2fweb-240402-tiger-woods-getty.jpg%3fquality%3d85%26strip%3dall%26resize%3d1200%252C675&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.a02d5ee54d0224ebdaf08dc06e89a891%3frik%3d%26pid%3dImgRaw%26r%3d0&exph=675&expw=1200&q=tiger+woods&simid=7231520605372&FORM=IRPRST&ck=A5655B51348407603055A27CD9832665&selectedIndex=3&itb=0");
+    color: white;
+}
+
+.x16{
+    background-color: #f59575;
+    color: white;
+}
+
+.x32{
+    background-color: #f57c5f;
+    color: white;
+}
+
+.x64{
+    background-color: #f65d3b;
+    color: white;
+}
+
+.x128{
+    background-color: #edce71;
+    color: white;
+}
+
+.x256{
+    background-color: #edcc63;
+    color: white;
+}
+
+.x512{
+    background-color: #edc651;
+    color: white;
+}
+
+.x1024{
+    background-color: #eec744;
+    color: white;
+}
+
+.x2048{
+    background-color: #ecc230;
+    color: white;
+}
+
+.x4096 {
+    background-color: #fe3d3d;
+    color: white;
+}
+
+.x8192 {
+    background-color: #ff2020;
+    color: white;
+}
